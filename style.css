@@ -1,0 +1,40 @@
+body { background-color: rgb(243, 195, 52);
+
+}
+h1{
+    text-align: center;
+    color: rgb(249, 18, 18);
+}
+h3{
+    text-align: center;
+    color: rgb(249, 18, 18);
+}
+h2
+{
+    color:brown;
+}
+h4{
+    text-decoration: underline;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
